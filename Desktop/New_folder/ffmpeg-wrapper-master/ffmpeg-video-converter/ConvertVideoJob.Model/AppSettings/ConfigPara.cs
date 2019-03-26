@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConvertVideoJob.Model
+namespace ConvertVideoJob.Model.AppSettings
 {
     public class ConfigPara
     {

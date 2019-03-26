@@ -770,3 +770,59 @@
 3/25/2019 5:29:48 PM thredID:8   ======================All threads have done,cost time:18583.9738ms,18.5839738s,0.309732896666667min==============
 3/25/2019 5:29:48 PM thredID:8    
 3/25/2019 5:29:48 PM thredID:8    
+3/26/2019 10:59:03 AM thredID:10   Parameters:  -i "C:\Users\fishliu\Videos\1611Zhg3JBOKjFut-VSVideo-Merged.avi"  -n OUTPUT
+3/26/2019 10:59:03 AM thredID:10   Parameters:  -i "C:\Users\fishliu\Videos\1611Zhg3JBOKjFut-VSVideo-Merged.MOV"  -n OUTPUT
+3/26/2019 10:59:03 AM thredID:11   Parameters:  -i "C:\Users\fishliu\Desktop\New_folder\ffmpeg-wrapper-master\ffmpeg-video-converter\ConvertVideoJob.Web\temp\1611Zhg3JBOKjFut-VSVideo-Merged.avi" -r 30 -s 320*568 -ac 1 -ar 11025 -y -hide_banner "C:\Users\fishliu\Desktop\New_folder\ffmpeg-wrapper-master\ffmpeg-video-converter\ConvertVideoJob.Web\temp\1611Zhg3JBOKjFut-VSVideo-Merged.mp4"
+3/26/2019 10:59:04 AM thredID:10   Parameters:  -i "C:\Users\fishliu\Videos\5個極為奇特的景點.3gp"  -n OUTPUT
+3/26/2019 10:59:04 AM thredID:10   Parameters:  -i "C:\Users\fishliu\Videos\aaa.mov"  -n OUTPUT
+3/26/2019 10:59:04 AM thredID:10   Parameters:  -i "C:\Users\fishliu\Videos\濂冲瓙鏁村708娆★紝娲讳簡2000骞达紝韬綋鍙樺紓鎴愪竴灞傝杽鐨紝缂烘按灏变細.wmv"  -n OUTPUT
+3/26/2019 10:59:05 AM thredID:11   Saved converted file to 'C:\Users\fishliu\Desktop\New_folder\video\1611Zhg3JBOKjFut-VSVideo-Merged.mp4'.
+3/26/2019 10:59:05 AM thredID:11   Deleting temporary input file 'C:\Users\fishliu\Desktop\New_folder\ffmpeg-wrapper-master\ffmpeg-video-converter\ConvertVideoJob.Web\temp\1611Zhg3JBOKjFut-VSVideo-Merged.avi'...
+3/26/2019 10:59:05 AM thredID:11   Deleting temporary output file 'C:\Users\fishliu\Desktop\New_folder\ffmpeg-wrapper-master\ffmpeg-video-converter\ConvertVideoJob.Web\temp\1611Zhg3JBOKjFut-VSVideo-Merged.mp4'...
+3/26/2019 10:59:05 AM thredID:20   Parameters:  -i "C:\Users\fishliu\Desktop\New_folder\ffmpeg-wrapper-master\ffmpeg-video-converter\ConvertVideoJob.Web\temp\1611Zhg3JBOKjFut-VSVideo-Merged.MOV" -r 30 -s 320*568 -ac 1 -ar 11025 -y -hide_banner "C:\Users\fishliu\Desktop\New_folder\ffmpeg-wrapper-master\ffmpeg-video-converter\ConvertVideoJob.Web\temp\1611Zhg3JBOKjFut-VSVideo-Merged.mp4"
+3/26/2019 10:59:06 AM thredID:20   Saved converted file to 'C:\Users\fishliu\Desktop\New_folder\video\1611Zhg3JBOKjFut-VSVideo-Merged(1).mp4'.
+3/26/2019 10:59:06 AM thredID:20   Deleting temporary input file 'C:\Users\fishliu\Desktop\New_folder\ffmpeg-wrapper-master\ffmpeg-video-converter\ConvertVideoJob.Web\temp\1611Zhg3JBOKjFut-VSVideo-Merged.MOV'...
+3/26/2019 10:59:06 AM thredID:20   Deleting temporary output file 'C:\Users\fishliu\Desktop\New_folder\ffmpeg-wrapper-master\ffmpeg-video-converter\ConvertVideoJob.Web\temp\1611Zhg3JBOKjFut-VSVideo-Merged.mp4'...
+3/26/2019 10:59:06 AM thredID:18   Parameters:  -i "C:\Users\fishliu\Desktop\New_folder\ffmpeg-wrapper-master\ffmpeg-video-converter\ConvertVideoJob.Web\temp\5個極為奇特的景點.3gp" -r 25 -s 176*144 -ac 1 -ar 11025 -y -hide_banner "C:\Users\fishliu\Desktop\New_folder\ffmpeg-wrapper-master\ffmpeg-video-converter\ConvertVideoJob.Web\temp\5個極為奇特的景點.mp4"
+3/26/2019 10:59:14 AM thredID:18   Saved converted file to 'C:\Users\fishliu\Desktop\New_folder\video\5個極為奇特的景點.mp4'.
+3/26/2019 10:59:14 AM thredID:18   Deleting temporary input file 'C:\Users\fishliu\Desktop\New_folder\ffmpeg-wrapper-master\ffmpeg-video-converter\ConvertVideoJob.Web\temp\5個極為奇特的景點.3gp'...
+3/26/2019 10:59:14 AM thredID:18   Deleting temporary output file 'C:\Users\fishliu\Desktop\New_folder\ffmpeg-wrapper-master\ffmpeg-video-converter\ConvertVideoJob.Web\temp\5個極為奇特的景點.mp4'...
+3/26/2019 10:59:14 AM thredID:21   Parameters:  -i "C:\Users\fishliu\Desktop\New_folder\ffmpeg-wrapper-master\ffmpeg-video-converter\ConvertVideoJob.Web\temp\aaa.mov" -r 29 -s 540*720 -ac 1 -ar 11025 -y -hide_banner "C:\Users\fishliu\Desktop\New_folder\ffmpeg-wrapper-master\ffmpeg-video-converter\ConvertVideoJob.Web\temp\aaa.mp4"
+3/26/2019 10:59:16 AM thredID:21   Saved converted file to 'C:\Users\fishliu\Desktop\New_folder\video\aaa.mp4'.
+3/26/2019 10:59:16 AM thredID:21   Deleting temporary input file 'C:\Users\fishliu\Desktop\New_folder\ffmpeg-wrapper-master\ffmpeg-video-converter\ConvertVideoJob.Web\temp\aaa.mov'...
+3/26/2019 10:59:16 AM thredID:21   Deleting temporary output file 'C:\Users\fishliu\Desktop\New_folder\ffmpeg-wrapper-master\ffmpeg-video-converter\ConvertVideoJob.Web\temp\aaa.mp4'...
+3/26/2019 10:59:16 AM thredID:23   Parameters:  -i "C:\Users\fishliu\Desktop\New_folder\ffmpeg-wrapper-master\ffmpeg-video-converter\ConvertVideoJob.Web\temp\濂冲瓙鏁村708娆★紝娲讳簡2000骞达紝韬綋鍙樺紓鎴愪竴灞傝杽鐨紝缂烘按灏变細.wmv" -r 29 -s 540*720 -ac 1 -ar 11025 -y -hide_banner "C:\Users\fishliu\Desktop\New_folder\ffmpeg-wrapper-master\ffmpeg-video-converter\ConvertVideoJob.Web\temp\濂冲瓙鏁村708娆★紝娲讳簡2000骞达紝韬綋鍙樺紓鎴愪竴灞傝杽鐨紝缂烘按灏变細.mp4"
+3/26/2019 11:00:27 AM thredID:23   Saved converted file to 'C:\Users\fishliu\Desktop\New_folder\video\濂冲瓙鏁村708娆★紝娲讳簡2000骞达紝韬綋鍙樺紓鎴愪竴灞傝杽鐨紝缂烘按灏变細.mp4'.
+3/26/2019 11:00:27 AM thredID:23   Deleting temporary input file 'C:\Users\fishliu\Desktop\New_folder\ffmpeg-wrapper-master\ffmpeg-video-converter\ConvertVideoJob.Web\temp\濂冲瓙鏁村708娆★紝娲讳簡2000骞达紝韬綋鍙樺紓鎴愪竴灞傝杽鐨紝缂烘按灏变細.wmv'...
+3/26/2019 11:00:27 AM thredID:23   Deleting temporary output file 'C:\Users\fishliu\Desktop\New_folder\ffmpeg-wrapper-master\ffmpeg-video-converter\ConvertVideoJob.Web\temp\濂冲瓙鏁村708娆★紝娲讳簡2000骞达紝韬綋鍙樺紓鎴愪竴灞傝杽鐨紝缂烘按灏变細.mp4'...
+3/26/2019 11:00:27 AM thredID:10   ======================All threads have done,cost time:83400.4026ms,83.4004026s,1.39000671min==============
+3/26/2019 11:00:27 AM thredID:10    
+3/26/2019 11:00:27 AM thredID:10    
+3/26/2019 12:00:19 PM thredID:11   Parameters:  -i "C:\\Users\\fishliu\\Desktop\\New_folder\\video\\aaa.mp4"  -n OUTPUT
+3/26/2019 12:04:52 PM thredID:19   Parameters:  -i "C:\\Users\\fishliu\\Desktop\\New_folder\\video\\aaa.mp4"  -n OUTPUT
+3/26/2019 12:05:10 PM thredID:19   Parameters:  -i "C:\\Users\\fishliu\\Desktop\\New_folder\\video\\aaa.mp4"  -n OUTPUT
+3/26/2019 12:06:04 PM thredID:22   Parameters:  -i "C:\\Users\\fishliu\\Desktop\\New_folder\\video\\aaa.mp4"  -n OUTPUT
+3/26/2019 12:07:19 PM thredID:20   Parameters:  -i "C:\\Users\\fishliu\\Desktop\\New_folder\\video\\aaa.mp4"  -n OUTPUT
+3/26/2019 12:07:44 PM thredID:19   Parameters:  -i "C:\\Users\\fishliu\\Desktop\\New_folder\\video\\aaa.mp4" -ss 1 -vframes 1 -r 1 -ac 1 -ab 2 -s 1280*720 -f image2 "C:\Users\fishliu\Desktop\New_folder\video\aaa.mp4_bc7baaca-2350-4965-a791-eed06b018212.jpg"
+3/26/2019 12:12:42 PM thredID:8   Parameters:  -i "C:\\Users\\fishliu\\Desktop\\New_folder\\video\\aaa.mp4"  -n OUTPUT
+3/26/2019 12:12:42 PM thredID:8   Parameters:  -i "C:\\Users\\fishliu\\Desktop\\New_folder\\video\\aaa.mp4"  -n OUTPUT
+3/26/2019 12:12:43 PM thredID:8   Parameters:  -i "C:\\Users\\fishliu\\Desktop\\New_folder\\video\\aaa.mp4" -ss 1 -vframes 1 -r 1 -ac 1 -ab 2 -s 960*540 -f image2 "C:\Users\fishliu\Desktop\New_folder\video\aaa.mp4_8a66a263-2cab-4f79-be92-d9a87e0b57e4.jpg"
+3/26/2019 12:13:30 PM thredID:11   Parameters:  -i "C:\\Users\\fishliu\\Desktop\\New_folder\\video\\aaa.mp4"  -n OUTPUT
+3/26/2019 12:13:33 PM thredID:11   Parameters:  -i "C:\\Users\\fishliu\\Desktop\\New_folder\\video\\aaa.mp4"  -n OUTPUT
+3/26/2019 12:13:43 PM thredID:11   Parameters:  -i "C:\\Users\\fishliu\\Desktop\\New_folder\\video\\aaa.mp4" -ss 1 -vframes 1 -r 1 -ac 1 -ab 2 -s 960*540 -f image2 "C:\Users\fishliu\Desktop\New_folder\video\aaa.mp4_e6ea55f4-ca1b-474e-9c98-7a29bc71e2bd.jpg"
+3/26/2019 12:17:31 PM thredID:8   Parameters:  -i "C:\\Users\\fishliu\\Desktop\\New_folder\\video\\aaa.mp4"  -n OUTPUT
+3/26/2019 12:17:43 PM thredID:8   Parameters:  -i "C:\\Users\\fishliu\\Desktop\\New_folder\\video\\aaa.mp4" -ss 1 -vframes 1 -r 1 -ac 1 -ab 2 -s 960*540 -f image2 "C:\Users\fishliu\Desktop\New_folder\videoaaa.mp4_d455f391-00f9-4d11-8838-199feb56c0c1.jpg"
+3/26/2019 12:17:55 PM thredID:13   Parameters:  -i "C:\\Users\\fishliu\\Desktop\\New_folder\\video\\aaa.mp4"  -n OUTPUT
+3/26/2019 12:18:02 PM thredID:13   Parameters:  -i "C:\\Users\\fishliu\\Desktop\\New_folder\\video\\aaa.mp4" -ss 1 -vframes 1 -r 1 -ac 1 -ab 2 -s 960*540 -f image2 "C:\Users\fishliu\Desktop\New_folder\videoaaa.mp4_1b47a8fd-a68e-4833-a0c4-9be431d78ffc.jpg"
+3/26/2019 12:19:02 PM thredID:9   Parameters:  -i "C:\\Users\\fishliu\\Desktop\\New_folder\\video\\aaa.mp4"  -n OUTPUT
+3/26/2019 12:19:02 PM thredID:9   Parameters:  -i "C:\\Users\\fishliu\\Desktop\\New_folder\\video\\aaa.mp4" -ss 1 -vframes 1 -r 1 -ac 1 -ab 2 -s 960*540 -f image2 "C:\Users\fishliu\Desktop\New_folder\video\aaa.mp4_4f88aef5-06e2-4e03-99ce-a448535079ea.jpg"
+3/26/2019 12:20:03 PM thredID:9   Parameters:  -i "C:\\Users\\fishliu\\Videos\\5個極為奇特的景點.3gp"  -n OUTPUT
+3/26/2019 12:20:03 PM thredID:9   Parameters:  -i "C:\\Users\\fishliu\\Videos\\5個極為奇特的景點.3gp" -ss 1 -vframes 1 -r 1 -ac 1 -ab 2 -s 176*144 -f image2 "C:\Users\fishliu\Videos\5個極為奇特的景點.3gp_cc01158f-159f-44fb-8ca2-d6d694491c46.jpg"
+3/26/2019 12:20:21 PM thredID:16   Parameters:  -i "1611Zhg3JBOKjFut-VSVideo-Merged.avi"  -n OUTPUT
+3/26/2019 12:20:22 PM thredID:16   Parameters:  -i "1611Zhg3JBOKjFut-VSVideo-Merged.avi" -ss 1 -vframes 1 -r 1 -ac 1 -ab 2 -s 0*0 -f image2 "\1611Zhg3JBOKjFut-VSVideo-Merged.avi_1a883546-f1a3-4ed6-be59-bc3659c5b633.jpg"
+3/26/2019 12:20:40 PM thredID:13   Parameters:  -i "C:\\Users\\fishliu\\Videos\\1611Zhg3JBOKjFut-VSVideo-Merged.avi"  -n OUTPUT
+3/26/2019 12:20:40 PM thredID:13   Parameters:  -i "C:\\Users\\fishliu\\Videos\\1611Zhg3JBOKjFut-VSVideo-Merged.avi" -ss 1 -vframes 1 -r 1 -ac 1 -ab 2 -s 320*568 -f image2 "C:\Users\fishliu\Videos\1611Zhg3JBOKjFut-VSVideo-Merged.avi_3216fab8-eab2-4e3c-ab1f-b033789069d9.jpg"
+3/26/2019 12:21:01 PM thredID:8   Parameters:  -i "C:\\Users\\fishliu\\Videos\\濂冲瓙鏁村708娆★紝娲讳簡2000骞达紝韬綋鍙樺紓鎴愪竴灞傝杽鐨紝缂烘按灏变細.wmv"  -n OUTPUT
+3/26/2019 12:21:01 PM thredID:8   Parameters:  -i "C:\\Users\\fishliu\\Videos\\濂冲瓙鏁村708娆★紝娲讳簡2000骞达紝韬綋鍙樺紓鎴愪竴灞傝杽鐨紝缂烘按灏变細.wmv" -ss 1 -vframes 1 -r 1 -ac 1 -ab 2 -s 640*360 -f image2 "C:\Users\fishliu\Videos\濂冲瓙鏁村708娆★紝娲讳簡2000骞达紝韬綋鍙樺紓鎴愪竴灞傝杽鐨紝缂烘按灏变細.wmv_142b47c0-08a2-4dbe-a2a5-80a907b8bdbe.jpg"
+3/26/2019 12:23:54 PM thredID:9   Parameters:  -i "C:\\Users\\fishliu\\Videos\\aaa.mp4"  -n OUTPUT
+3/26/2019 12:23:59 PM thredID:9   Parameters:  -i "C:\\Users\\fishliu\\Videos\\aaa.mp4" -ss 1 -vframes 1 -r 1 -ac 1 -ab 2 -s 960*540 -f image2 "C:\Users\fishliu\Videos\aaa_e602d9ed-c88d-41f5-91b1-065637fd481e.jpg"

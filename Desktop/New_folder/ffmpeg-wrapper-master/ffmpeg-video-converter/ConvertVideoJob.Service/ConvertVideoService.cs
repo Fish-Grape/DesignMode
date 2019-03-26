@@ -1,6 +1,7 @@
 ﻿using ConvertVideoJob.IService;
 using ConvertVideoJob.IService.Helper;
 using ConvertVideoJob.Model;
+using ConvertVideoJob.Model.AppSettings;
 using ConvertVideoJob.Service.Factory;
 using Quartz;
 using System;
@@ -68,8 +69,7 @@ namespace ConvertVideoJob.Service
             videoInfo.Path = path;
 
             //type
-            FileInfo file = new FileInfo(path);
-            string filePath = file.Extension.Substring(1, file.Extension.Length-1).ToUpper();
+            string filePath = fileHelper.GetFileExtenionByPath(path);
             if (filePath != "3GP")
                 videoInfo.MediaType = (VideoType)Enum.Parse(typeof(VideoType), filePath, false);
             else
@@ -157,12 +157,52 @@ namespace ConvertVideoJob.Service
             quartzHelper.ExecuteByCron<MyJob>(cornString).GetAwaiter().GetResult();
         }
 
-        public void shutDownConvertJob()
+        public void ShutDownConvertJob()
         {
             quartzHelper.shutDownJob();
         }
 
+        public string GetThumbnailImg(string oriVideoPath)
+        {
+            if (string.IsNullOrEmpty(oriVideoPath))
+                return "Source video path can not be null !";
+
+            ThumbnailParam param = config.GetAppSettings<ThumbnailParam>("ThumbnailParam");
+            if (param.ThubWidth <= 0 || param.ThubHeight<=0 )
+            {
+                VideoModel model=GetVideoInfo(oriVideoPath);
+                param.ThubWidth = model.FrameWidth;
+                param.ThubHeight = model.FrameHeight;
+            }
+
+            if (string.IsNullOrEmpty(param.ThubImagePath))
+                param.ThubImagePath = Path.GetDirectoryName(oriVideoPath) + "\\";
+
+            string fileName = fileHelper.GetFileNameByPath(oriVideoPath);
+            string outputPath = param.ThubImagePath + fileName + "_" + Guid.NewGuid() + ".jpg";
+            string fullAppPath = Path.GetFullPath(APP_PATH);
+
+            // Build the command parameters
+            string[] args = new string[8];
+            args[0] = string.Format("-i \"{0}\"", oriVideoPath);
+            args[1] = "-ss " + param.FrameIndex;
+            args[2] = "-vframes 1";
+            args[3] = "-r 1";
+            args[4] = "-ac 1";
+            args[5] = "-ab 2";
+            args[6] = string.Format("-s {0}*{1}", param.ThubWidth, param.ThubHeight);    
+            args[7] = string.Format("-f image2 \"{0}\"", outputPath);
+
+            // Call ffmpeg to convert file
+            CallConsoleAppAsync(fullAppPath, args);
+
+            return outputPath;
+        }
+
         #endregion interface function
+
+
+
 
         #region 任务执行例
         public class MyJob : IJob
@@ -412,6 +452,8 @@ namespace ConvertVideoJob.Service
 
         private void Output(object sendProcess, DataReceivedEventArgs output)
         {
+            if (videoInfo == null)
+                return;
             if (!String.IsNullOrEmpty(output.Data))
             {
                 if (output.Data.Contains("Duration:"))

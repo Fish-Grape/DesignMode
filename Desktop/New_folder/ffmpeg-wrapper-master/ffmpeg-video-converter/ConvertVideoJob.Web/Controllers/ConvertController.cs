@@ -27,14 +27,7 @@ namespace ConvertVideoJob.Web.Controllers
         [HttpGet]
         public void Stop()
         {
-            convertVideo.shutDownConvertJob();
-        }
-
-        [Route("get_info")]
-        [HttpGet]
-        public JsonResult GetVideoInfoFromPath(string path)
-        {
-            return new JsonResult(convertVideo.GetVideoInfo(path));
+            convertVideo.ShutDownConvertJob();
         }
 
         [Route("all")]

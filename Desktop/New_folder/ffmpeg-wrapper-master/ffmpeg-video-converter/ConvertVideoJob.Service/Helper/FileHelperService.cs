@@ -96,5 +96,21 @@ namespace ConvertVideoJob.Service.Helper
                 }
             }
         }
+
+        public string GetFileNameByPath(string path)
+        {
+            if (string.IsNullOrEmpty(path))
+                return "";
+            FileInfo file = new FileInfo(path);
+            return file.Name.Remove(file.Name.IndexOf(file.Extension));
+        }
+
+        public string GetFileExtenionByPath(string path)
+        {
+            if (string.IsNullOrEmpty(path))
+                return "";
+            FileInfo file = new FileInfo(path);
+            return file.Extension.Substring(1, file.Extension.Length - 1).ToUpper();
+        }
     }
 }

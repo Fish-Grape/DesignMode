@@ -26,9 +26,19 @@ namespace ConvertVideoJob.IService
         /// <param name="outputPath">target directory you want to put</param>
         /// <returns>file full path</returns>
         string ConvertOneFile(string sourcePath, string outputPath="");
-
+        /// <summary>
+        /// start job
+        /// </summary>
         void StartJobBasedOnConfig();
-
-        void shutDownConvertJob();
+        /// <summary>
+        /// shut down
+        /// </summary>
+        void ShutDownConvertJob();
+        /// <summary>
+        ///  get thumbnail
+        /// </summary>
+        /// <param name="oriVideoPath">视频的全路径</param>
+        /// <returns>抓取图片的路径</returns>
+        string GetThumbnailImg(string oriVideoPath);
     }
 }

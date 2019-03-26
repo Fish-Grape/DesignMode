@@ -31,5 +31,17 @@ namespace ConvertVideoJob.IService.Helper
         /// <param name="path"></param>
         /// <param name="fileRule"></param>
         void GetFiles(string path, Action<FileInfo> fileRule);
+        /// <summary>
+        /// get file name
+        /// </summary>
+        /// <param name="path"></param>
+        /// <returns></returns>
+        string GetFileNameByPath(string path);
+        /// <summary>
+        /// get file type
+        /// </summary>
+        /// <param name="path"></param>
+        /// <returns></returns>
+        string GetFileExtenionByPath(string path);
     }
 }
