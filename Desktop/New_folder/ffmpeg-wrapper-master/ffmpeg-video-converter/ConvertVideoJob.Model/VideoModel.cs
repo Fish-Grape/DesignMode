@@ -26,5 +26,6 @@ namespace ConvertVideoJob.Model
         FLV=4,
         WMV=5,
         THREE_GP = 6,
+        MTS=7,
     }
 }

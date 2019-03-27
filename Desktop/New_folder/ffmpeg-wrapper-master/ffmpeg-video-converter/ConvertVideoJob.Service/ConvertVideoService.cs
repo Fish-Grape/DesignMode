@@ -46,7 +46,7 @@ namespace ConvertVideoJob.Service
         readonly string[] ALL_VIDEO_TYPE = new string[] {
             "MPEG", "MPG", "DAT", "AVI","BLU－RAY",
         "MOV","ASF","WMV","NAVI","3GP","REAL VIDEO","MKV",
-            "FLV","F4V","RMVB","WebM","HDDVD","QSV"};
+            "FLV","F4V","RMVB","WebM","HDDVD","QSV","MTS"};
 
         private string _tempPath;
         private string _logPath;

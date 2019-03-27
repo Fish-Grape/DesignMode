@@ -826,3 +826,18 @@
 3/26/2019 12:21:01 PM thredID:8   Parameters:  -i "C:\\Users\\fishliu\\Videos\\濂冲瓙鏁村708娆★紝娲讳簡2000骞达紝韬綋鍙樺紓鎴愪竴灞傝杽鐨紝缂烘按灏变細.wmv" -ss 1 -vframes 1 -r 1 -ac 1 -ab 2 -s 640*360 -f image2 "C:\Users\fishliu\Videos\濂冲瓙鏁村708娆★紝娲讳簡2000骞达紝韬綋鍙樺紓鎴愪竴灞傝杽鐨紝缂烘按灏变細.wmv_142b47c0-08a2-4dbe-a2a5-80a907b8bdbe.jpg"
 3/26/2019 12:23:54 PM thredID:9   Parameters:  -i "C:\\Users\\fishliu\\Videos\\aaa.mp4"  -n OUTPUT
 3/26/2019 12:23:59 PM thredID:9   Parameters:  -i "C:\\Users\\fishliu\\Videos\\aaa.mp4" -ss 1 -vframes 1 -r 1 -ac 1 -ab 2 -s 960*540 -f image2 "C:\Users\fishliu\Videos\aaa_e602d9ed-c88d-41f5-91b1-065637fd481e.jpg"
+3/26/2019 6:08:48 PM thredID:8   Parameters:  -i "\\172.18.0.105\share\活动相片\公司视频\2013\00062.MTS"  -n OUTPUT
+3/26/2019 6:10:38 PM thredID:8   Parameters:  -i "\\172.18.0.105\share\活动相片\公司视频\2013\00062.MTS"  -n OUTPUT
+3/26/2019 6:11:50 PM thredID:9   Parameters:  -i "\\172.18.0.105\share\活动相片\公司视频\2013\00062.MTS"  -n OUTPUT
+3/26/2019 6:11:57 PM thredID:9   Parameters:  -i "\\172.18.0.105\share\活动相片\公司视频\2013\00063.MTS"  -n OUTPUT
+3/26/2019 6:12:02 PM thredID:9   Parameters:  -i "\\172.18.0.105\share\活动相片\公司视频\2013\00064.MTS"  -n OUTPUT
+3/26/2019 6:12:22 PM thredID:14   Parameters:  -i "C:\Users\fishliu\Desktop\New_folder\ffmpeg-wrapper-master\ffmpeg-video-converter\ConvertVideoJob.Web\temp\00062.MTS" -r 25 -s 1280*720 -ac 1 -ar 11025 -y -hide_banner "C:\Users\fishliu\Desktop\New_folder\ffmpeg-wrapper-master\ffmpeg-video-converter\ConvertVideoJob.Web\temp\00062.mp4"
+3/26/2019 6:12:23 PM thredID:9   Parameters:  -i "\\172.18.0.105\share\活动相片\公司视频\2013\00065.MTS"  -n OUTPUT
+3/26/2019 6:12:23 PM thredID:9   Parameters:  -i "\\172.18.0.105\share\活动相片\公司视频\2013\00066.MTS"  -n OUTPUT
+3/26/2019 6:12:25 PM thredID:9   Parameters:  -i "\\172.18.0.105\share\活动相片\公司视频\2013\00067.MTS"  -n OUTPUT
+3/26/2019 6:12:26 PM thredID:9   Parameters:  -i "\\172.18.0.105\share\活动相片\公司视频\2013\00068.MTS"  -n OUTPUT
+3/26/2019 6:12:28 PM thredID:9   Parameters:  -i "\\172.18.0.105\share\活动相片\公司视频\2013\00069.MTS"  -n OUTPUT
+3/26/2019 6:13:54 PM thredID:9   Parameters:  -i "\\172.18.0.105\share\活动相片\公司视频\2013\00070.MTS"  -n OUTPUT
+3/26/2019 6:13:54 PM thredID:14   Saved converted file to 'C:\Users\fishliu\Desktop\New_folder\video\00062.mp4'.
+3/26/2019 6:13:54 PM thredID:14   Deleting temporary input file 'C:\Users\fishliu\Desktop\New_folder\ffmpeg-wrapper-master\ffmpeg-video-converter\ConvertVideoJob.Web\temp\00062.MTS'...
+3/26/2019 6:13:55 PM thredID:14   Deleting temporary output file 'C:\Users\fishliu\Desktop\New_folder\ffmpeg-wrapper-master\ffmpeg-video-converter\ConvertVideoJob.Web\temp\00062.mp4'...
