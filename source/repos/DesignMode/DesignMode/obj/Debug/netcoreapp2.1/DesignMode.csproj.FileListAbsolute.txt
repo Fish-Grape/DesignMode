@@ -1,0 +1,12 @@
+C:\Users\fishliu\source\repos\DesignMode\DesignMode\bin\Debug\netcoreapp2.1\DesignMode.deps.json
+C:\Users\fishliu\source\repos\DesignMode\DesignMode\bin\Debug\netcoreapp2.1\DesignMode.runtimeconfig.json
+C:\Users\fishliu\source\repos\DesignMode\DesignMode\bin\Debug\netcoreapp2.1\DesignMode.runtimeconfig.dev.json
+C:\Users\fishliu\source\repos\DesignMode\DesignMode\bin\Debug\netcoreapp2.1\DesignMode.dll
+C:\Users\fishliu\source\repos\DesignMode\DesignMode\bin\Debug\netcoreapp2.1\DesignMode.pdb
+C:\Users\fishliu\source\repos\DesignMode\DesignMode\obj\Debug\netcoreapp2.1\DesignMode.csprojAssemblyReference.cache
+C:\Users\fishliu\source\repos\DesignMode\DesignMode\obj\Debug\netcoreapp2.1\DesignMode.csproj.CoreCompileInputs.cache
+C:\Users\fishliu\source\repos\DesignMode\DesignMode\obj\Debug\netcoreapp2.1\DesignMode.AssemblyInfoInputs.cache
+C:\Users\fishliu\source\repos\DesignMode\DesignMode\obj\Debug\netcoreapp2.1\DesignMode.AssemblyInfo.cs
+C:\Users\fishliu\source\repos\DesignMode\DesignMode\obj\Debug\netcoreapp2.1\DesignMode.dll
+C:\Users\fishliu\source\repos\DesignMode\DesignMode\obj\Debug\netcoreapp2.1\DesignMode.pdb
+C:\Users\fishliu\source\repos\DesignMode\DesignMode\bin\Debug\netcoreapp2.1\DesignMode.dll.config
